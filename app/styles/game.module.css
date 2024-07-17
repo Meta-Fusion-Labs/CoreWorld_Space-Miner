@@ -1,13 +1,18 @@
 .canvas {
-    display: block;
-    margin: 0 auto;
-    background-color: black;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 600px; /* Adjusted to match the canvas height */
+  margin: 0 auto; /* Corrected 'o' to '0' */
+  padding: 20px;
+  border: 1px solid #ff00d4;
+  position: relative; /* Ensure it is centered in the viewport */
+  margin: 60px; /* Adjust this as necessary to center it vertically */
+}

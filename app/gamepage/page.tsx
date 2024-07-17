@@ -1,5 +1,5 @@
 
-import styles from '../styles/Game.module.css'; // Ensure the path is correct
+import styles from '../styles/gamepage.module.css'; // Ensure the path is correct
 import Game from '../components/Game';
 
 
